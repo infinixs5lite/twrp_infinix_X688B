@@ -132,6 +132,10 @@ TW_INCLUDE_FASTBOOTD := true
 # Exclude
 TW_EXCLUDE_TWRPAPP := true
 
+#PBRP_FLAGS
+PB_TORCH_PATH := "/sys/class/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
+
 # Logcat
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
