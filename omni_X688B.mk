@@ -20,11 +20,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X688B
-PRODUCT_NAME := twrp_X688B
+PRODUCT_NAME := omni_X688B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X688B
 PRODUCT_MANUFACTURER := INFINIX MOBILITY LIMITED
